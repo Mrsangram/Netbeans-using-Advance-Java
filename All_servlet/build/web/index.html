@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>TODO supply a title</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <style>
+            .back{
+                background: linear-gradient(to left , #ff00ff,blue );
+                height: 200px;
+                width: 200px;
+                fd
+            }
+        </style>
+    </head>
+    <body>
+
+        <form class="back" action="NewServlet" method="post">
+            <h1 align="center">My Form</h1>
+            <table  style="margin: auto;padding: 30px 20px 20px 20px;line-height: 30px;border: 2px solid #000;">
+                <tr>
+                    <td>Name :</td>
+                    <td><input type="text" placeholder="Please Name Hare..." name="u_name"></td>
+
+                </tr>
+                <tr>
+                    <td>Enter your Password :</td>
+                    <td><input type="password" placeholder="Enter Password Here..." name="u_pass"></td>
+
+                </tr>
+                <tr>
+                    <td>Enter your Email  :</td>
+                    <td><input type="email" placeholder="Enter Email Here..." name="u_email"></td>
+                </tr>
+                <tr>
+                    <td>Select Gender :</td>
+                    <td><input type="radio" name="ugender" value="m"> Male<input type="radio" name="ugender" value="f">Female</td>
+                </tr>
+                <tr>
+                    <td>Select Your Course  :</td>
+                    <td><select name="U_course">
+                            <option>Select Here</option>
+                            <option value="java">JAVA</option>
+                            <option value="python">Python</option>
+                            <option value="php">PHP</option>
+                            <option value=".net">.Net</option>
+                            <option value="mysql">MySQL</option>
+                        </select></td>
+                </tr>
+                <tr>
+                    <td><input type="checkbox" value="checked" name="condition">
+                        Agree terms and condtion</td>
+                </tr>
+                <tr>
+                    <td><input type="submit" value="submit">
+                        <input type="reset" value="cancel"></td>
+                </tr>
+
+            </table>
+
+        </form>
+    </body>
+</html>
